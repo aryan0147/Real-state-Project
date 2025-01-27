@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: your-app-name
+    runtime: python
+    buildCommand: |
+      apt-get update && apt-get install -y wget
+      wget --no-check-certificate 'https://drive.google.com/uc?export=download&id=1BM12el4V2jRUv7dtf4OCiJM_w9CBLtvX' -O pipeline.pkl
+    startCommand: python Home.py  # This command will start your Python app
