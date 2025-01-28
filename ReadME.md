@@ -23,6 +23,6 @@ This project leverages data science techniques to provide insights, predictions,
   A recommendation engine provides personalized suggestions for properties based on amenities, price, and location advantages.  
 
 - **Deployment**:  
-  The application, including prediction, analytics, and recommendation modules, was deployed on **Streamlit**, ensuring accessibility and ease of use.  
+  The application, including prediction, analytics, and recommendation modules, was deployed on **RENDER**, ensuring accessibility and ease of use.  
 
 This project integrates robust data science workflows with real-world applications, offering users valuable tools to make informed real estate decisions.  
